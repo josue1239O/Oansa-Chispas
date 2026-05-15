@@ -1,6 +1,6 @@
 # CHISPAS - OANSA
 
-Sistema de registro para el programa OANSA (Organizacion de Avance Niños, Scouts y Adolescentes). Permite a lideres y ayudantes registrar el progreso de los niños en los 3 manuales: Saltador, Caminante y Escalador.
+App web que registra el avance de cada nino segun su lider, ademas tambien registra los pedidos de los lideres. Cada lider y ayudante puede llevar el control de progreso de sus ninos en los 3 manuales (Saltador, Caminante, Escalador) y gestionar pedidos de la tienda, todo centralizado en una sola plataforma.
 
 ## Funcionalidades
 
