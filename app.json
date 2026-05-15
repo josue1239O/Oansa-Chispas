@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CHISPAS",
+    "slug": "pedidos-oansa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/chispitas.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/chispitas.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#DC2626"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oansa.pedidos"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/chispitas.png",
+        "backgroundColor": "#DC2626"
+      },
+      "package": "com.oansa.pedidos"
+    },
+    "web": {
+      "favicon": "./assets/chispitas.png",
+      "bundler": "metro",
+      "name": "CHISPAS",
+      "shortName": "CHISPAS",
+      "meta": {
+        "appleIcon": "./assets/chispitas.png"
+      }
+    }
+  }
+}

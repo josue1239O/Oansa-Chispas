@@ -1,0 +1,33 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Since the app uses REST API with custom codes (not Firebase Auth),
+    // we need permissive rules but with some basic protection
+    
+    // Allow read access to pedidos for the app to function
+    match /pedidos/{pedidoId} {
+      allow read, write: if true;
+    }
+    
+    // Allow read/write access to lideres for login system
+    match /lideres/{liderId} {
+      allow read, write: if true;
+    }
+    
+    // Allow read/write access to configuracion for the app settings
+    match /configuracion/{docId} {
+      allow read, write: if true;
+    }
+    
+    // Allow read/write access to ninos for child registration
+    match /ninos/{ninoId} {
+      allow read, write: if true;
+    }
+    
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
