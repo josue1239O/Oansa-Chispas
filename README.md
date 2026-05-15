@@ -1,6 +1,6 @@
 # CHISPAS - OANSA
 
-App web que registra el avance de cada nino segun su lider, ademas tambien registra los pedidos de los lideres. Cada lider y ayudante puede llevar el control de progreso de sus ninos en los 3 manuales (Saltador, Caminante, Escalador) y gestionar pedidos de la tienda, todo centralizado en una sola plataforma.
+App web que registra el avance de cada niño segun su lider, ademas tambien registra los pedidos de los lideres. Cada lider y ayudante puede llevar el control de progreso de sus niños en los 3 manuales (Saltador, Caminante, Escalador) y gestionar pedidos de la tienda, todo centralizado en una sola plataforma.
 
 ## Funcionalidades
 
@@ -11,10 +11,8 @@ App web que registra el avance de cada nino segun su lider, ademas tambien regis
 - Celda de Premio Chispita para manual Escalador
 - Vista de impresion con los 3 niveles completos para guardar como PDF (boton GUARDAR)
 - Panel de administracion con pestanas: Pedidos, Lideres, Productos, Registros
-- Gestion de lideres y ayudantes (filtro lider-ayudante para compartir ninos)
+- Gestion de lideres y ayudantes (filtro lider-ayudante para compartir niños)
 - Tienda de productos con toggle disponible/oculto
-- QR de ingreso configurable desde admin
-- Periodo activo automatico segun fecha
 - Auto-sync cada 5 segundos en la vista de registrar
 
 ## Tecnologias
@@ -42,7 +40,7 @@ npx firebase deploy --only hosting
 
 ## Estructura de datos en Firestore
 
-### Coleccion `ninos`
+### Coleccion `ninos` (niños)
 Cada documento representa un niño con campos:
 - `nombreNino`, `padre`, `direccion`, `telefono`, `fechaNacimiento`, `iglesia`, `traidoPor`, `trajoA`, `numeroMembresia`
 - `lider` (codigo del lider que lo registro)
