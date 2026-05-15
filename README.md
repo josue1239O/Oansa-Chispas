@@ -58,4 +58,3 @@ Pedidos de productos de la tienda.
 - `productos/` - productos de la tienda
 - `periodos` - periodos del programa
 - `manuales` - URLs de manuales PDF
-- `qr` - URL del codigo QR de ingreso
